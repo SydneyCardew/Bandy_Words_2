@@ -1,0 +1,11 @@
+###List of BEINGPRESENTs for bandnamer.py
+We Are
+She is
+I am
+You Are
+They Are
+He is
+She Isn't
+He Isn't
+They Aren't
+They Were

@@ -1,0 +1,7 @@
+###List of PASTVERBs for Bandy Words.
+Lover
+Eater
+Hunter
+Killer
+Stalker
+Singer

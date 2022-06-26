@@ -1,0 +1,16 @@
+###List of SONGTYPEs for Bandy Words.
+Anthem
+Aria
+Blues
+Cantata
+Chanson
+Dirge
+Elegy
+Hymn
+Lament
+Madrigal
+Motif
+Song
+Theme
+Tune
+Fugue

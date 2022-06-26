@@ -1,0 +1,6 @@
+###List of BEINGPRESENTs for bandnamer.py
+Him
+Her
+Them
+Us
+You

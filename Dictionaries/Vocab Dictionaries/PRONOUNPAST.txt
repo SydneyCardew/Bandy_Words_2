@@ -1,0 +1,10 @@
+###List of PRONOUNS (PAST) for bandnamer.py
+They Have
+She Has
+He Has
+She Had
+He Had
+They Had
+They Hadn't
+She Hadn't
+He Hadn't

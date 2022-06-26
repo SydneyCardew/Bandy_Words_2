@@ -1,0 +1,7 @@
+###List of IMPERATIVEs for Bandy Words.
+Must
+Should
+Shouldn't
+Mustn't
+Can
+Can't

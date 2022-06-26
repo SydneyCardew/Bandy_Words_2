@@ -1,0 +1,21 @@
+###List of PASTVERBs for Bandy Words.
+Arrived In
+Believed
+Burned
+Departed
+Destroyed
+Exploded
+Finished
+Flew from
+Flew too
+Hated
+Have Harmed
+Heard
+Held
+Kissed
+Loved
+Mourned
+Passed
+Started
+Stole
+Touched

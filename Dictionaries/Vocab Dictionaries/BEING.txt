@@ -1,0 +1,13 @@
+###List of BEINGs for bandnamer.py
+We Are
+She is
+I am
+We Have
+They Are
+He is
+She isn't
+He isn't
+They Aren't
+They Have
+She has
+He has

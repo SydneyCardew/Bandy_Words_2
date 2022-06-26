@@ -1,0 +1,26 @@
+###List of GENRE MODIFIERS for Bandy Words. 
+Acoustic
+Ambient
+Baroque
+Computer
+Constrained
+Electronic
+Esoteric
+Experimental
+Free
+Indie
+Low-Fi
+Minimal
+Modern
+Modernist
+Mumble
+Neoclassical
+New
+Orthodox
+Progressive
+Retro
+Romantic
+Sparse
+Trad
+Unorthodox
+Weird

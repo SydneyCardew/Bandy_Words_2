@@ -1,0 +1,7 @@
+###List of AMOUNTS for Bandy Words.
+Half
+Quarter
+One Third
+Two Thirds
+Three Quarters
+All

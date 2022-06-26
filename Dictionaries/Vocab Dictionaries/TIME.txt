@@ -1,0 +1,43 @@
+###List of TIMEs for Bandy Words.
+Afternoon
+the Age of Exploration
+Apocalypse
+Autumn
+Breakfast
+Century
+the Dark Ages
+Dawn
+Dinner
+Evening
+Friday
+Future
+the Gilded Age
+the Golden Age
+the Ice Age
+the Imperial Age
+Interbellum
+Lunch
+the Middle Ages
+Midnight
+Millenium
+Monday
+Moment
+Morning
+Night
+Noon
+Post Apocalypse
+Renaissance
+Saturday
+Spring
+the Stone Age
+Summer
+Sunday
+Sunrise
+Sunset
+Thursday
+Tuesday
+Twilight
+the Victorian Era
+Wednesday
+Weekend
+Winter
