@@ -1,6 +1,6 @@
-#BANDY WORDS 2.0
+# BANDY WORDS 2.0
 
-####A program by Sydney Cardew
+#### A program by Sydney Cardew
 
 Bandy words is a CLI program for generating outrageous names, 
 album titles, song titles and genres for fictious bands, using
@@ -11,7 +11,7 @@ of basic programming principles and technologies.
 
 ---
 
-####Operation: 
+#### Operation: 
 
 Bandy Words requires at least two arguments:
 
@@ -127,7 +127,7 @@ terminal.
  
 ---
 
-####Dictionary files:
+#### Dictionary files:
 
 Bandy Words uses two type of dictionary files, which can be found in plain
 text form in the *..\Dictionaries\Rules Dictionaries* and *..\Dictionaries\Vocab Dictionaries*
@@ -170,7 +170,7 @@ between the numbers 50 and 99 have a chance to have `'` added to their front
 
 ---
 
-###Settings
+### Settings
 
 The ```Config.ini``` file in the *Settings* folder contains a number of
 settings relevant to the operation of Bandy Words. If you wish to tweak these 
@@ -199,14 +199,14 @@ by the `discog` function.
 
 ---
 
-####Version history:
+#### Version history:
 
 2.0.0: First functional version   
 2.1.0: Added text saving, full album generation and other feature improvements.
 
 ---
 
-####Future development:
+#### Future development:
 
 Planned additional features include piping, output to csv files,
 options to use a non pseudo-random seed source, full logging, an option to run
