@@ -11,10 +11,10 @@ class Discography:
         self.config = config
         self.rules_dict = rules_dict
         self.vocab_dict = vocab_dict
-        self.band_rules = rules_dict['band']
-        self.album_rules = rules_dict['album']
-        self.genre_rules = rules_dict['genre']
-        self.song_rules = rules_dict['song']
+        self.band_rules = rules_dict['BAND']
+        self.album_rules = rules_dict['ALBUM']
+        self.genre_rules = rules_dict['GENRE']
+        self.song_rules = rules_dict['SONG']
         self.discog_size = randint(1, self.config.max_discog_size)
         self.band_name = bf.make_name(choice(self.band_rules), self.vocab_dict, self.config.bounds)
         self.band_genre = bf.make_name(choice(self.genre_rules), self.vocab_dict, self.config.bounds)
@@ -70,9 +70,12 @@ class Configuration:
         self.config_seg = config_seg
         self.config = conf.ConfigParser()
         self.config.read(os.getcwd() + '\\Settings\\Config.ini')
+        self.version = self.config[(config_seg)]['version']
         self.rules_path = self.config[(config_seg)]['rules_path']
         self.vocab_path = self.config[(config_seg)]['vocab_path']
         self.eleven_path = self.config[(config_seg)]['eleven_path']
+        self.output_path = self.config[(config_seg)]['output_path']
+        self.output_name = self.config[(config_seg)]['output_name']
         self.eleven_rarity = int(self.config[(config_seg)]['eleven_rarity'])
         self.upper_bound = int(self.config[(config_seg)]['upper_bound'])
         self.lower_bound = int(self.config[(config_seg)]['lower_bound'])

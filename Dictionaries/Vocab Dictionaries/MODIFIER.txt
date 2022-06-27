@@ -17,6 +17,7 @@ Mumble
 Neoclassical
 New
 Orthodox
+Primitive
 Progressive
 Retro
 Romantic

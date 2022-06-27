@@ -3,13 +3,13 @@ import os
 
 def json_maker(directory, directory_string, target):
     """Creates json file from .txt files"""
-    json = open(target, "w", encoding="utf-8")
+    json = open(os.getcwd() + '\\Dictionaries\\' + target, "w", encoding="utf-8")
     json.write("{")
     file_count = 0
     for file in os.listdir(directory):
         file_count += 1
     for file_index, file in enumerate(os.listdir(directory)):
-        file_name = str(file)
+        file_name = str(file).upper()
         dict_name = file_name[:-4]
         count = 0
         with open(directory_string + file_name, "r+") as open_file:
@@ -32,11 +32,22 @@ def json_maker(directory, directory_string, target):
     json.write("}")
 
 
-#  set-up variables
-directory_strings = [os.getcwd() + "\\Vocab Dictionaries\\", os.getcwd() + "\\Rules Dictionaries\\"]
-directories = [str(os.fsencode(directory_strings[0]))[2:-1], str(os.fsencode(directory_strings[1]))[2:-1]]
-targets = ('Vocab_Dictionary.json', 'Rules_Dictionary.json')
+def dict_maker():
+    """main dict_maker logic"""
+    directory_strings = [os.getcwd() + "\\Dictionaries\\Vocab Dictionaries\\", os.getcwd() +
+                         "\\Dictionaries\\Rules Dictionaries\\"]
+    directories = [str(os.fsencode(directory_strings[0]))[2:-1], str(os.fsencode(directory_strings[1]))[2:-1]]
+    targets = ('Vocab_Dictionary.json', 'Rules_Dictionary.json')
 
-for x in range(0, 2):
-    json_maker(directory_strings[x], directories[x], targets[x])
+    for x in range(0, 2):
+        json_maker(directory_strings[x], directories[x], targets[x])
+    print("Dict_maker has executed successfully.")
+
+
+def main():
+    dict_maker()
+
+
+if __name__ == "__main__":
+    main()
 

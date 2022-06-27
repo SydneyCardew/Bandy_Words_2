@@ -1,4 +1,4 @@
-###List of AMOUNTS for Bandy Words.
+### List of AMOUNTS for Bandy Words.
 Half
 Quarter
 One Third
