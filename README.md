@@ -91,7 +91,7 @@ Genre: Acoustic Future Drone Metal
 >Rivers of Emo
 >
 >01 - The Theatre of Eagles  
->02 - Machine Things 
+>02 - Machine Things   
 >03 - The Erotic Men   
 >04 - Little Soldiers
 >
