@@ -15,7 +15,8 @@ of basic programming principles and technologies.
 
 Bandy Words requires at least two arguments:
 
-```Bandy_words.py <type> <number> [--user] [--eleven] [--textsave]```
+```Bandy_words.py <type> <number> [--dictmaker] [--user] [--eleven]```    
+```[--textsave] [--quiet] [--version]```
 
 `type` tells Bandy Words the type of output it is being asked to generate.
 The allowable types are as follows (with examples):
