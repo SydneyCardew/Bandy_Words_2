@@ -38,7 +38,7 @@ def main():
     # main logic
     answer_list = []
     if bandy_type in rules_dict.keys():
-        for x in range(int(args.number) + 1):
+        for x in range(int(args.number)):
             rule_list = rules_dict[bandy_type]
             rule = choice(rule_list)
             answer = bf.make_name(rule, vocab_dict, config.bounds)
@@ -51,7 +51,7 @@ def main():
             bf.text_saver(answer_list, config, bandy_type)
 
     elif bandy_type == 'FULLALBUM':
-        for x in range(int(args.number) + 1):
+        for x in range(int(args.number)):
             title = bf.make_name(choice(rules_dict['ALBUM']), vocab_dict, config.bounds)
             answer_list.append(Album(title, rules_dict['SONG'], vocab_dict, config))
         if not args.quiet:
@@ -60,7 +60,7 @@ def main():
             bf.text_saver(answer_list, config, bandy_type, 'full_album')
 
     elif bandy_type == 'DISCOG':
-        for x in range(int(args.number) + 1):
+        for x in range(int(args.number)):
             answer_list.append(Discography(rules_dict, vocab_dict, config))
         if not args.quiet:
             bf.out_print(answer_list, 'discog')
