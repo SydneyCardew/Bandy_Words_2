@@ -183,6 +183,8 @@ The settings are:
 * `rules_path` - the path to the rules dictionary json 
 * `vocab_path` - the path to the vocab dictionary json
 * `eleven_path` - the path to the eleven mode json
+* `output_path` - the path to the output directory
+* `output_name` - the name to be used for output files
 * `eleven_rarity`\* - this controls the rarity of umlauts in eleven mode. The
 higher the number, the rarer umlauts become; it is essentially the denominator
 of a ratio which has a numerator of one. For example, setting this to '4' will
