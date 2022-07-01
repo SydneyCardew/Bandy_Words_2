@@ -1,3 +1,7 @@
+"""Bandy words is a module for generating interesting, amusing (and occasionally outrageous) names, album titles,
+song titles and genres for fictious bands. For more information see README.MD
+"""
+
 import os
 import argparse
 import Bandy_functions as bf
@@ -11,6 +15,7 @@ from Bandy_classes import Album
 
 
 def main():
+    """main program function"""
     config = Configuration('DEFAULT')  # retrieves default configuration
 
     # argument parsing
@@ -31,24 +36,24 @@ def main():
     args = parser.parse_args()
     bandy_type = args.type.upper()
 
-    if args.user:
+    if args.user:  # over-writes default configuration if the 'user' argument is set.
         config = Configuration('CUSTOM')
 
-    if args.dictmaker:
+    if args.dictmaker:  # runs Dict_Maker.py if the 'dictmaker' argument is set.
         dm.dict_maker()
 
-    if args.combocounter:
+    if args.combocounter:  # runs Combo_Counter.py if the 'combocounter' argument is set.
         cc.combo_counter(config)
 
-    if args.setseed:
+    if args.setseed:  # stores a user-defined seed in the config file, if present.
         seed(args.setseed)
         config.store_seed(args.setseed)
-    else:
+    else:  # or retrieves a random seed
         random_seed = bf.random_source()
         seed(int(random_seed))
         config.store_seed(random_seed)
 
-    log = []
+    log = []  # pairs of rules and their resultant strings are stored in the log array as tuples.
 
     # retrieves rule and vocab dictionaries
     rules_dict = bf.get_json(os.getcwd() + config.rules_path)
@@ -57,28 +62,32 @@ def main():
 
     # main logic
     answer_list = []
+    if int(args.number) > 999999:
+        bf.error_state('too_much')
     if bandy_type in rules_dict.keys():
         for x in range(int(args.number)):
             rule_list = rules_dict[bandy_type]
             rule = choice(rule_list)
             answer = bf.make_name(rule, vocab_dict, config.bounds, bandy_type)
-            if args.eleven:
+            if args.eleven:  # if the 'eleven' argument is set, this processes the string to add umlauts.
                 answer = bf.eleven_mode(answer, eleven_dict, config.eleven_rarity)
             answer_list.append(answer)
             log.append((rule, answer))
-        if not args.quiet:
+        if not args.quiet:  # default behaviour is to print the output of Bandy Words to the console.
+            # The 'quiet' argument suppresses this behaviour
             bf.out_print(answer_list)
-        if args.txtsave:
+        if args.txtsave:  # outputs a text file if the 'txtsave' argument is set.
             bf.text_saver(answer_list, config, bandy_type)
-        if args.csvsave:
+        if args.csvsave:  # outputs a csv file if the 'csvsave' argument is set
             bf.csv_saver(answer_list, config, bandy_type)
-        if args.log:
+        if args.log:  # outputs a log file if the 'log' argument is set
             bf.make_log(log, config)
 
     elif bandy_type == 'FULLALBUM':
         for x in range(int(args.number)):
             title = bf.make_name(choice(rules_dict['ALBUM']), vocab_dict, config.bounds)
             answer_list.append(Album(title, rules_dict['SONG'], vocab_dict, config))
+        # see the first 'if' statement to this 'elif' for an explanation of the following.
         if not args.quiet:
             bf.out_print(answer_list, 'full_album')
         if args.txtsave:
@@ -91,6 +100,7 @@ def main():
     elif bandy_type == 'DISCOG':
         for x in range(int(args.number)):
             answer_list.append(Discography(rules_dict, vocab_dict, config))
+        # see the first 'if' statement to this 'elif' for an explanation of the following.
         if not args.quiet:
             bf.out_print(answer_list, 'discog')
         if args.txtsave:

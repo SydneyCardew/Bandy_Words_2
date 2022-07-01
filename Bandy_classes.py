@@ -1,3 +1,5 @@
+"""This module contains classes used by the Bandy_Words and Combo_Counter modules"""
+
 import Bandy_functions as bf
 from random import randint
 import os
@@ -31,13 +33,14 @@ class Discography:
                                          self.vocab_dict, self.config))
 
     def csv(self):
+        """generates the representation of the object for csv output"""
         csv_string = f"{self.band_name},\n{self.band_genre},\n"
         for album in self.album_list:
             csv_string += album.csv()
         return csv_string
 
     def view(self):
-        """passes the output string to __repr__ and __str__"""
+        """generates the output string and passes it to __repr__ and __str__"""
         string = f"{self.band_name}\n" \
                  f"Genre: {self.band_genre}\n\n" \
                  f"{self.discog_size + 1} " \

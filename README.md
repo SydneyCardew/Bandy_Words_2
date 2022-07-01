@@ -10,7 +10,7 @@ I ever wrote, reworked from the ground up with a much better understanding
 of basic programming principles and technologies. 
 
 With the default configuration options, the current version of Bandy Words
-is capable of generating 1,052,684,849 unique strings.
+is capable of generating 1,063,007,997 unique strings.
 
 ---
 
@@ -245,6 +245,9 @@ by the `discog` function.
 * better error communication 
 * refactoring and commenting
 * extensive refinement and expansion of rules and vocab dictionaries.
+
+##### 2.2.1
+* bugfixes and improved commenting
 
 ---
 

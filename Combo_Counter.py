@@ -1,3 +1,7 @@
+"""Combo_Counter is a module that counts the number of possible combinations the current installation of Bandy Words
+is capable of generating.
+"""
+
 import os
 import argparse
 import numpy as np
@@ -7,6 +11,7 @@ from Bandy_classes import Configuration
 
 
 def combination_enumerator(rules_dict, vocab_dict, config):
+    """counts the total possible combinations that the current Bandy Words installation can generate"""
     all_rules = []
     for key, value in rules_dict.items():
         all_rules.extend(value)
@@ -16,7 +21,7 @@ def combination_enumerator(rules_dict, vocab_dict, config):
         for word in rule.split():
             if word.isupper():
                 if word == 'NUMBER':
-                    rule_combinations.append(config.bounds[1] - config.bounds[0])
+                    rule_combinations.append((config.bounds[1] - config.bounds[0]) * 2)
                 else:
                     rule_combinations.append(len(vocab_dict[word]))
         total_combinations += np.prod(rule_combinations)
@@ -24,6 +29,7 @@ def combination_enumerator(rules_dict, vocab_dict, config):
 
 
 def combo_counter(config):
+    """main logic, callable from other modules"""
     rules_dict = bf.get_json(os.getcwd() + config.rules_path)
     vocab_dict = bf.get_json(os.getcwd() + config.vocab_path)
     print(f"This installation of Bandy Words can generate {combination_enumerator(rules_dict, vocab_dict, config)}"
@@ -31,6 +37,7 @@ def combo_counter(config):
 
 
 def main():
+    """this function quarantines the argument parsing, and allows Combo_Counter.py to run as a stand-alone module"""
     config = Configuration('DEFAULT')  # retrieves default configuration
 
     # argument parsing
