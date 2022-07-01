@@ -20,13 +20,13 @@ class Discography:
         self.album_rules = rules_dict['ALBUM']
         self.genre_rules = rules_dict['GENRE']
         self.song_rules = rules_dict['SONG']
-        self.discog_size = randint(1, self.config.max_discog_size)
+        self.discog_size = randint(1, self.config.max_discog_size) + 1
         self.band_name = bf.make_name(choice(self.band_rules),
                                       self.vocab_dict, self.config.bounds, 'band')
         self.band_genre = bf.make_name(choice(self.genre_rules),
                                        self.vocab_dict, self.config.bounds, 'genre')
         self.album_list = []
-        for x in range(self.discog_size + 1):
+        for x in range(self.discog_size):
             self.title = bf.make_name(choice(self.album_rules),
                                       self.vocab_dict, self.config.bounds, 'album')
             self.album_list.append(Album(self.title, self.song_rules,
@@ -70,9 +70,11 @@ class Album:
                                                 self.vocab_dict, self.config.bounds, 'album'))
 
     def csv(self):
+        """generates the representation of the object for csv output"""
         return f"{self.title},{','.join(self.track_list)},\n"
 
     def view(self):
+        """generates the output string and passes it to __repr__ and __str__"""
         string = f"{self.title}\n\n"
         for index, item in enumerate(self.track_list):
             string += f"{str((index + 1)).zfill(2)} - {item}\n"
@@ -106,4 +108,5 @@ class Configuration:
         self.bounds = [self.lower_bound, self.upper_bound]
 
     def store_seed(self, seed):
+        """stores the seed in the config object"""
         self.seed = seed
