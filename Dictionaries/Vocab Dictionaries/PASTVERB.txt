@@ -1,21 +1,36 @@
-###List of PASTVERBs for Bandy Words.
+### List of simple past verbs for Bandy Words.
 Arrived In
 Believed
+Broken
 Burned
+Cursed
+Defiled
 Departed
 Destroyed
+Exalted
 Exploded
 Finished
-Flew from
-Flew too
+Flew
+Grasped
 Hated
-Have Harmed
+Harmed
 Heard
 Held
+Ignored
+Justified
 Kissed
 Loved
 Mourned
+Negated
+Opened
 Passed
+Queried
+Realised
+Refined
 Started
-Stole
+Stolen
 Touched
+Understood
+Vexed
+Wore
+Yellowed

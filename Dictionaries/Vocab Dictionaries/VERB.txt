@@ -1,4 +1,5 @@
-###List of NOUNs for Bandy Words.
+### List of present continuous verbs for Bandy Words.
+### i.e. 'We Are Harvesting Eagles'
 Advancing
 Arousing
 Awaiting
@@ -14,6 +15,7 @@ Dying
 Enticing
 Expanding
 Exploring
+Fearing
 Fighting
 Flying
 Forgetting

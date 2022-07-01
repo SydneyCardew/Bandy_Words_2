@@ -2,12 +2,15 @@
 
 #### A program by Sydney Cardew
 
-Bandy words is a CLI program for generating outrageous names, 
-album titles, song titles and genres for fictious bands, using
-a hand-crafted and curated set of rules and vocabulary, built in
-Python. It is a reconstruction of one of the first pieces of software
+Bandy words is a CLI program for generating interesting, amusing (and
+occasionally outrageous) names, album titles, song titles and genres for 
+fictious bands, using a hand-crafted and curated set of rules and vocabulary, 
+built in Python. It is a reconstruction of one of the first pieces of software
 I ever wrote, reworked from the ground up with a much better understanding
 of basic programming principles and technologies. 
+
+With the default configuration options, the current version of Bandy Words
+is capable of generating 1,052,684,849 unique strings.
 
 ---
 
@@ -15,8 +18,9 @@ of basic programming principles and technologies.
 
 Bandy Words requires at least two arguments:
 
-```Bandy_words.py <type> <number> [--dictmaker] [--user] [--eleven]```    
-```[--textsave] [--quiet] [--version]```
+```Bandy_words.py <type> <number> [--dictmaker] [--user] [--eleven]```
+```[--textsave] [--csvsave] [--quiet] [--log] [--setseed <seed>]```
+```[--combocounter] [--version]```
 
 `type` tells Bandy Words the type of output it is being asked to generate.
 The allowable types are as follows (with examples):
@@ -28,7 +32,7 @@ The allowable types are as follows (with examples):
 >Glass of the Vast Butterfly, The Rain Guitar, The Advancing Concrete, 
 >House Thirty Seven, Black Yellow Machinery, Land and the Soldiers, 
 >Curse the Astronauts, Cold Highway, The Winter Redemption, 
->Meadow Emperors, George and the Russian Wizards, 
+>The Meadow Emperors, George and the Russian Wizards, 
 >The Millenium Witch, The Eaters of L.A., Harvesting Hills, Astronaut of Apes.
     
 * `album`: generates album titles    
@@ -119,13 +123,31 @@ settings in the Config.ini file
 program is 'turned up to 11' and ümlauts are addëd randömly to a
 cërtain proportïon of vowëls.
 
-```--textsave``` or `-ts` saves the output of Bandy Words to a text file.
+```--txtsave``` or `-ts` saves the output of Bandy Words to a txt file.
+
+```--csvsave``` or `-cs` saves the output of Bandy words to a csv file.
 
 ```--quiet``` or `-q` prevents the output of Bandy Words being sent to the 
 terminal.
 
+```--log``` or `-l` causes Bandy Words to generate a log file, which records 
+which rule was used to generate each item of output. This is intended as a 
+development tool for refining dictionaries.
+
+```--setseed <seed>``` or `-ss <seed>` allows the user to define a seed manually.
+The seed must be an integer number between 1 and 999999. If no seed is set, 
+Bandy Words will attempt to retrieve a random number based on atmospheric noise
+from an online source*. If it is unable to do so, it will revert to a pseudorandom 
+number generated from the system time by Python's inbuilt `random` module.
+
+```--combocounter``` or ```-cc``` runs `Combo_Counter.py`, which outputs
+the number of unique strings Bandy Words is capable of creating to the terminal.
+This utility can also be run as a standalone script.
+
 ```--version``` or `-v` displays the current version of Bandy Words 
  
+\* https://www.random.org/integers/?num=1&min=1&max=999999&col=1&base=10&format=plain&rnd=new
+
 ---
 
 #### Dictionary files:
@@ -153,8 +175,10 @@ you might add the rule:
 ```FOO for the BAR```
 
 You would then need to create txt files called ```FOO.txt``` and ```BAR.txt```
-and populate them with at least one rule. Note that capitalisation of file names is not actually necessary, though
-they must be correctly named. Each rule or vocabulary item must be on its own line.
+and populate them with at least one rule. Note that capitalisation of file names is not 
+actually necessary, though they must be correctly named. 
+Each rule or vocabulary item must be on its own line. If you wish to increase 
+the frequence with which a certain rule or vocabulary item appears, repeat it.
 
 In order for your changes to these dictionaries to be reflected in Bandy Words,
 it is necessary to run the script `Dict_Maker.py`. This can be done seperately
@@ -204,15 +228,27 @@ by the `discog` function.
 
 #### Version history:
 
-2.0.0: First functional version   
-2.1.0: Added text saving, full album generation and other feature improvements.
+##### 2.0.0    
+* First functional version 
+  
+##### 2.1.0     
+* Text saving
+* Full album generation
+* Refactoring and other feature improvements.   
+
+##### 2.2.0    
+* csv saving
+* full logging
+* input custom seeds
+* combination counter
+* improved randomness
+* better error communication 
+* refactoring and commenting
+* extensive refinement and expansion of rules and vocab dictionaries.
 
 ---
 
 #### Future development:
 
-Planned additional features include piping, output to csv files,
-options to use a non pseudo-random seed source, full logging, an option to run
-Dict_Maker.py as part of normal Bandy Words operation, and eventually
-packaging Bandy Words into a web app form, as well as properly packaging it
-to run without a Python installation.
+The creation of Bandy Words 2 has been conducted largely as a preliminary
+exercise in order to develop the software into a web app.

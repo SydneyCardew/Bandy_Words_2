@@ -11,6 +11,7 @@ Asteroid
 Astronaut
 Atom
 Autumn
+Axe
 Beach
 Blonde
 Blood
@@ -25,7 +26,7 @@ Cave
 Chamber
 Chaos
 Chemical
-Children
+Child
 Church
 Claw
 Cloud
@@ -81,6 +82,7 @@ Guitar
 Gun
 Hammer
 Hand
+Hat
 Hate
 Head
 Heat
@@ -89,7 +91,6 @@ Heartbreak
 Heaven
 Hell
 Highway
-Hot
 House
 Ice
 Image
@@ -124,8 +125,10 @@ Nightmare
 Noise
 North
 Oak
+Offspring
 Order
 Paper
+Path
 Pentagram
 Pet
 Piano

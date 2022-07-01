@@ -1,0 +1,605 @@
+Log by Bandy Words 2.2.0 on 2022-07-01 at 20:14:57 
+log - 001.txt containing 200 entries.
+Entries are paired with the rule used to create them.
+Seed: 302779
+
+The NOUN PRESENTVERB the NOUN
+The Tree Walks the Curse
+
+The ADJECTIVE NOUNER
+The Melting Sailor
+
+The VERB of FIRSTNAME
+The Flying of Cain
+
+PRONOUNISARE VERB the COLLECTIVE
+She Isn't Enticing the Division
+
+IMPERATIVE PRONOUN CURRENTVERB ?
+Should She Resist ?
+
+AMOUNT ADJECTIVE NOUN
+All Atomic Brain
+
+PLURALS of COREGENRE
+Mountains of Soul
+
+TIME of the PLURALS
+Midnight of the Masks
+
+NOUN ADVERBS VERB
+Limb Coldly Hammering
+
+NUMBER PLURALS
+13 Machineries
+
+FIRSTNAME NOUN
+George Rider
+
+The NOUN ADVERBS VERB
+The Angel Patiently Leaving
+
+The NOUN PRESENTVERB
+The Vicar Holds
+
+FIRSTNAME IMPERATIVE CURRENTVERB
+Sasha Must Persist
+
+The PLURALS VERB
+The Roads Celebrating
+
+ADJECTIVE COLLECTIVE
+Opulent Cosmonauts
+
+VERB NOUN NUMBER
+Lusting Witch 24
+
+TITLE of the NOUN
+Saint of the House
+
+ADVERBS the PLURALS
+Warmly the Rivers
+
+FIRSTNAME VERB PLURALS
+Nicholas Observing Whispers
+
+PLURALS of PLACE
+Monkeys of the Occident
+
+The ADJECTIVE COLLECTIVE
+The Bright Force
+
+PRONOUNISARE NOUN ( PRONOUNISARE NOUN )
+We Are Computer ( We Are Not Guitar )
+
+VERB the PLURALS
+Singing the Particles
+
+ADJECTIVE NOUN for PLURALS
+Grey Crystal for Outlaws
+
+NOUN SONGTYPE
+Oak Anthem
+
+The ADJECTIVE COLLECTIVE
+The Killing Kings
+
+TITLE of PLACE
+King of Manchester
+
+PLACE VERB
+Beijing Touching
+
+TITLE of the NOUN
+Prince of the Unicorn
+
+TIME SONGTYPE
+The Future Anthem
+
+TITLE of TIME
+Empress of the Gilded Age
+
+FIRSTNAME , TITLE of PLACE
+Alex , Lord of the Swamp
+
+NOUN of the PLURALS
+Time of the Devils
+
+FIRSTNAME , TITLE of PLACE
+Charlotte , Count of Warsaw
+
+PRONOUN PASTVERB the PLURALS That PASTVERB the NOUN
+He Mourned the Meteors That Mourned the Asteroid
+
+ADVERBS TIME
+Really the Post Apocalypse
+
+POSSESSIVES VERB
+The Mistress's Romancing
+
+The PLURALS VERB
+The Organisms Harvesting
+
+The NOUN PRESENTVERB the NOUN
+The Brain Departs the Cocaine
+
+VERB the ADJECTIVE NOUN
+Leaving the Mystical Hammer
+
+FIRSTNAME LASTNAME VERB
+Howard Lovecraft Becoming
+
+NUMBER PLURALS
+42 Snakes
+
+The VERB of FIRSTNAME
+The Singing of Charlotte
+
+PLURALS of PLACE
+Tombs of Cairo
+
+The TITLE of the COLLECTIVE
+The Count of the Outlaws
+
+FIRSTNAME PRESENTVERB
+Eleanor Leaves
+
+The NOUNER of the NOUN
+The Exciter of the Transmission
+
+PLACE VERB
+Stonehenge Numbing
+
+VERB the ADJECTIVE NOUN
+Glorifying the Yellow Crisis
+
+POSSESSIVES VERB
+The Ghost's Stalking
+
+COLLECTIVE of TIME
+Vampires of Saturday
+
+ADVERBS the PLURALS
+Brutally the Princes
+
+The PASTVERB NOUN
+The Mourned Actor
+
+POSSESSIVES PASTVERB PLURALS
+The Lady's Vexed Dogs
+
+PRONOUN PASTVERB COLLECTIVE
+She Passed Squad
+
+NOUN Number NUMBER
+Stone Number 10
+
+The NOUN FUTURE the NOUN
+The Rocket Ignored the Machinery
+
+The ADJECTIVE NOUN
+The Heavenly Heaven
+
+AMOUNT COLLECTIVE
+Two Thirds Brigade
+
+PRONOUNPAST PASTPERFECTVERB PRONOUN3 NOUN
+They Hadn't Heard of My Redemption
+
+The ADJECTIVE NOUNER
+The Pagan Lover
+
+NOUN ADVERBS VERB
+Cloud Patiently Dreading
+
+VERB PLURALS
+Justifying Eagles
+
+ADJECTIVE SONGTYPE
+Pale Theme
+
+PRONOUNISARE VERB
+You Are Grieving
+
+PRONOUNISARE PLURALS
+He Is Orbits
+
+PRONOUNISARE the NOUN
+He Isn't the Wolf
+
+The FUTURE NOUN
+The Needed Colour
+
+The NOUNER of the NOUN
+The Admirer of the Sun
+
+VERB PLURALS
+Jumping Claws
+
+NUMBER COLLECTIVE
+'54 Fathers
+
+PRONOUNISARE VERB the ADJECTIVE NOUN
+We Are Dreading the Angry Pride
+
+COLLECTIVE IMPERATIVE CURRENTVERB
+Renegades Mustn't Persist
+
+PRONOUNPAST Been PASTVERB
+She Had Been Heard
+
+ADJECTIVE PLACE
+Little L.A.
+
+VERB the PLURALS
+Observing the Crypts
+
+ADJECTIVE PRONOUN2
+Orange Us
+
+PRONOUNPAST PASTPERFECTVERB PRONOUN3 ADJECTIVE NOUN
+They Had Seen Our Wild Guitar
+
+TIME COLLECTIVE
+The Post Apocalypse Knights
+
+The NOUN VERB the NOUN
+The South Kissing the Actor
+
+While My NOUN ADVERBS PRESENTVERB
+While My Witch Falsely Brings
+
+PLACE VERB
+The Pyramids Observing
+
+PRONOUNISARE NOUN ( PRONOUNISARE NOUN )
+We Are Not Dagger ( You Are Smoke )
+
+The NOUN That PRESENTVERB the NOUN
+The Pet That Kisses the Rock
+
+PRONOUNISARE NOUN ( PRONOUNISARE NOUN )
+They Are Oak ( He Isn't Generator )
+
+The PASTVERB NOUN
+The Exalted Road
+
+TIME SONGTYPE
+Night March
+
+The PLURALS of the NOUN
+The Eagles of the Heaven
+
+The NOUN PRESENTVERB the NOUN
+The Crisis Agrees the Ice
+
+AMOUNT ADJECTIVE NOUN
+Two Thirds Lesbian Hat
+
+MODIFIER PLURALS
+First Wave Cars
+
+NOUN of the ADJECTIVE COLLECTIVE
+Cave of the Blue Knights
+
+PLURALS of TIME
+Children of the Golden Age
+
+FIRSTNAME VERB PLURALS
+Ursula Painting Monkeys
+
+The VERB of FIRSTNAME
+The Touching of Martin
+
+The PLURALS COLLECTIVE PLACE
+The Signs Intruders L.A.
+
+The TITLE of the COLLECTIVE
+The Vicar of the Boys
+
+The COLLECTIVE
+The Collective
+
+NOUN of PLACE
+Rain of Castle
+
+SONGTYPE NUMBER
+Arabesque Thirty Nine
+
+The NOUN That FUTURE PLURALS
+The Sculpture That Repeated Organisms
+
+VERB FIRSTNAME
+Expanding Eleanor
+
+Get PRONOUN2 NOUN
+Get Him Love
+
+TITLE of PLACE
+Prince of the Cemetery
+
+TIME PLURALS
+Afternoon Explosions
+
+The PLURALS VERB PRONOUN2
+The Fields Singing Him
+
+IMPERATIVE PRONOUN CURRENTVERB ?
+Can We Survive ?
+
+The NOUN SONGTYPE
+The Magic Song
+
+PRONOUN3 SONGTYPE
+Her Anthem
+
+TIME of the PLURALS
+Noon of the Organisms
+
+The NOUN is VERB
+The Scar is Singing
+
+PRONOUNISARE VERB NOUN for the NOUN
+He Is Passing Gold for the Revolution
+
+The NOUN PRONOUN FUTURE
+The West You Feared
+
+The ADJECTIVE COLLECTIVE
+The Holy Aliens
+
+PLURALS from the ADJECTIVE NOUN
+Swamps from the Lonely Astronaut
+
+PRONOUNPAST PASTPERFECTVERB PRONOUN3 ADJECTIVE NOUN
+She Has Come From Your Wild Vicar
+
+The FUTURE NOUN
+The Cursed Neon
+
+NOUN ADJECTIVE
+Tiger Nuclear
+
+NOUN of the NOUN
+Dilemma of the Death
+
+PLURALS of COREGENRE
+Insects of Psychedelia
+
+NOUN in PRONOUN3 PLURALS
+Machinery in My Zombies
+
+SONGTYPE NUMBER
+Madrigal 20
+
+The VERB of FIRSTNAME
+The Lusting of Christine
+
+POSSESSIVES ADJECTIVE NOUN
+The Admiral's Beautiful Day
+
+VERB FIRSTNAME
+Loving Alice
+
+The VERB of the NOUN
+The Spiralling of the Brain
+
+ADJECTIVE NOUN NUMBER
+Grateful Child 29
+
+PRONOUNISARE VERB the NOUN
+She Isn't Mourning the Dilemma
+
+ADJECTIVE NOUN
+Smoking Drug
+
+PRONOUN FUTURE PLURALS
+He Expected Stars
+
+NOUN the NOUN
+Blood the Love
+
+PLURALS of PLACE
+Crypts of London
+
+The PLURALS COLLECTIVE PLACE
+The Pylons Zombies Bangkok
+
+PLACE SONGTYPE
+Soho Madrigal
+
+NOUN of the NOUN
+Asteroid of the Fire
+
+POSSESSIVES SONGTYPE
+The Ghost's Tune
+
+The NOUNER of the NOUN
+The Enemy of the Atom
+
+ADJECTIVE NOUN for PLURALS
+White Image for Roads
+
+TIME SONGTYPE
+The Week Blues
+
+VERB the ADJECTIVE NOUN
+Living the Flying Love
+
+FIRSTNAME LASTNAME VERB
+Charlotte Hendrix Walking
+
+NOUN Number NUMBER
+Sulphur Number 23
+
+PRONOUNISARE ADJECTIVE COLLECTIVE
+You Are Pale Rioters
+
+NUMBER ADJECTIVE PLURALS
+Thirty Five White Emperors
+
+PRONOUNISARE ADVERBS VERB PRONOUN2
+You Are Slowly Advancing Them
+
+The NOUN That Has PASTVERB the NOUN
+The Riot That Has Vexed the Theory
+
+While My NOUN ADVERBS PRESENTVERB
+While My Acid Lovingly Runs
+
+The NOUN PRESENTVERB
+The Pride Weeps
+
+PLACE COLLECTIVE
+Soho Aces
+
+POSSESSIVES SONGTYPE
+The Admiral's Hymn
+
+Get PRONOUN2 NOUN
+Get Us Rust
+
+ADJECTIVE PRONOUN PASTVERB
+Fabulous She Grasped
+
+PLURALS of TIME
+Fields of the Week
+
+The FUTURE PLURALS
+The Yearned For Things
+
+TIME NOUN
+The Sunset Unicorn
+
+ADJECTIVE NOUN
+Cold Nerve
+
+The FUTURE COLLECTIVE
+The Ruined Ravens
+
+NUMBER ADJECTIVE PLURALS
+Forty Marvellous Jesters
+
+ADVERBS PLACE
+Softly Cairo
+
+The NOUN That Has PASTVERB the NOUN
+The Poison That Has Ignored the Steel
+
+PRONOUN PASTVERB the PLURALS That PASTVERB the NOUN
+They Flew the Apes That Mourned the Flag
+
+NOUN of the PLURALS
+Arcade of the Apes
+
+VERB the PLURALS
+Building the Jesters
+
+ADJECTIVE NOUN for PLURALS
+Curvaceous Rider for Wraiths
+
+The COLLECTIVE
+The Bards
+
+The ADJECTIVE NOUNER
+The Psychedelic Lover
+
+PRONOUNPAST PASTPERFECTVERB PRONOUN3 ADJECTIVE NOUN
+They Have Seen Your Grotesque Rider
+
+PRONOUNISARE COLLECTIVE
+She Is Force
+
+POSSESSIVES NOUN
+The Lady's Order
+
+a NOUN VERB in PLACE
+A Song Fearing in Soho
+
+FIRSTNAME LASTNAME VERB
+Martin Davies Living
+
+AMOUNT COLLECTIVE
+Quarter Corporation
+
+NOUN NOUNER
+Silver Crusader
+
+The NOUN FUTURE VERB PLURALS
+The Pride Dreaded Holding Rockets
+
+PRONOUNISARE NOUN ( PRONOUNISARE NOUN )
+We Are Not Unicorn ( You Are Noise )
+
+Like a ADJECTIVE NOUN
+Like a Lesbian Heaven
+
+The FUTURE COLLECTIVE
+The Hated Gang
+
+PLACE of TIME
+The Bay of Apocalypse
+
+VERB the PLURALS
+Holding the Princesses
+
+The NOUN PRESENTVERB the NOUN
+The Gang Kisses the Hate
+
+PRONOUNISARE the NOUN
+We Are the Weed
+
+POSSESSIVES NOUN
+The Farmhand's Stone
+
+POSSESSIVES PLURALS
+Abdul's Whispers
+
+FIRSTNAME IMPERATIVE CURRENTVERB
+Sydney Can't Live
+
+NOUNER of the NOUN
+Lover of the Lord
+
+The FUTURE PLURALS
+The Killed For Ghosts
+
+ADJECTIVE NOUN NUMBER
+Japanese Tiger '64
+
+FIRSTNAME LASTNAME VERB
+Francis Death Visiting
+
+FIRSTNAME NOUN
+Rose Noise
+
+PRONOUNISARE VERB the ADJECTIVE NOUN
+He Is Kissing the Little Voodoo
+
+PLACE NOUN
+Beijing Head
+
+POSSESSIVES PASTVERB PLURALS
+Our Kissed Knives
+
+ADJECTIVE COLLECTIVE
+Exciting Company
+
+PLACE SONGTYPE
+L.A. Madrigal
+
+The NOUNER of the NOUN
+The Enemy of the Planet
+
+ADJECTIVE NOUN
+Splendid Werewolf
+
+PRONOUNISARE VERB the ADJECTIVE NOUN
+It Is Touching the Throbbing Box
+
+POSSESSIVES VERB SONGTYPE
+The Lady's Becoming Chanson
+
+NUMBER COLLECTIVE
+65 Jokers
+

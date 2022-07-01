@@ -1,0 +1,26 @@
+### List of titles for Bandy Words.
+Admiral
+Baron
+Baroness
+Commander
+Count
+Countess
+Emperor
+Empress
+General
+Imperatrix
+King
+Lady
+Lord
+Master
+Mistress
+President
+Priest
+Priestess
+Prince
+Princess
+Queen
+Saint
+Tsar
+Tsarina
+Vicar

@@ -1,7 +1,8 @@
-###List of band name rules for Bandy Words. Capitalised words will be replaced. Lines beginning '###' are ignored.
-###To increase weighting, repeat an option
-A NOUN
-A NOUN
+### List of band name rules for Bandy Words. Capitalised words will be replaced.
+### Lines beginning '###' are ignored.
+### To increase weighting, repeat an option
+a NOUN
+a NOUN
 ADJECTIVE ADJECTIVE NOUN
 ADJECTIVE ADJECTIVE NOUN
 ADJECTIVE NOUN
@@ -9,7 +10,6 @@ ADJECTIVE NOUN
 ADJECTIVE NOUN NOUN
 ADJECTIVE NOUN NUMBER
 ADJECTIVE NOUN and the PLURALS
-AMOUNT COLLECTIVE
 AMOUNT NOUN
 AMOUNT NOUN AMOUNT NOUN
 AMOUNT of the NOUN
@@ -20,6 +20,7 @@ FIRSTNAME and the NOUN
 NOUN / NOUN
 NOUN NOUN
 NOUN NOUN
+NOUN NOUNER
 NOUN NOUN NUMBER
 NOUN NOUN and the NOUN COLLECTIVE
 NOUN NUMBER
@@ -58,6 +59,9 @@ PLURALS of TIME
 PRONOUN FUTURE PRONOUN2
 TIME NOUN
 TIME NOUN
+TITLE FIRSTNAME
+TITLE FIRSTNAME and the COLLECTIVE
+TITLE LASTNAME
 The ADJECTIVE NOUN
 The ADJECTIVE NUMBER
 The ADJECTIVE PLURALS

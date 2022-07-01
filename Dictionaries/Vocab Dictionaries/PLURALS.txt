@@ -1,14 +1,17 @@
 ###List of PLURALS for Bandy Words.
 Apes
 Asteroids
+Atoms
 Birds
 Bones
 Cars
+Children
 Claws
 Colours
 Cries
 Crypts
 Crystals
+Devils
 Dogs
 Dreams
 Drugs
@@ -29,6 +32,7 @@ Guns
 Hands
 Hills
 Insects
+Jesters
 Kings
 Knives
 Lies
@@ -38,6 +42,7 @@ Machines
 Magicians
 Masks
 Masters
+Mechanisms
 Meteors
 Minds
 Monkeys
@@ -46,6 +51,7 @@ Mortals
 Mountains
 Orbits
 Organisms
+Outlaws
 Particles
 Phantoms
 Pistols
@@ -56,6 +62,7 @@ Princesses
 Pylons
 Queens
 Questions
+Renegades
 Rivers
 Roads
 Rockets
@@ -81,4 +88,5 @@ Whales
 Wheels
 Whispers
 Winds
+Wraiths
 Zombies

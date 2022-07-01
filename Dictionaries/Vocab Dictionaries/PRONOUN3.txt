@@ -1,4 +1,4 @@
-###List of PRONOUNS(3) for Bandy Words. 
+### List of possessive pronouns for Bandy Words.
 His
 Her
 Their

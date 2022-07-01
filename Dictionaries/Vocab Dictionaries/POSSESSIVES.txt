@@ -2,6 +2,7 @@
 Abdul's
 Abigail's
 Angela's
+Arthur's
 Bernard's
 Christine's
 Daniel's
@@ -38,4 +39,5 @@ The Master's
 The Mistress's
 The Priest's
 The Queen's
+The Vampire's
 Ursula's

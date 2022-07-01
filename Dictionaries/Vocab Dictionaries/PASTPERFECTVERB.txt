@@ -1,4 +1,4 @@
-###List of NOUNs for Bandy Words.
+### List of past perfect verbs for Bandy Words.
 Flown to
 Seen
 Heard of
@@ -9,3 +9,4 @@ Gone to
 Come to
 Exploded
 Come From
+Stole

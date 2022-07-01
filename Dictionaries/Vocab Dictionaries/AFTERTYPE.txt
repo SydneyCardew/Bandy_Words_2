@@ -1,11 +1,16 @@
-### List of GENRE MODIFIERS (1) for Bandy Words.
+### List of genre modifiers for Bandy Words, designed to appear after the core genres.
+### i.e. 'Jazz Core', 'Pop Fusion'.
 'n Roll
+Beat
 Core
 Core
 Core
 Fusion
-Hybrid
+Gaze
+Hardcore
+House
 Metal
+Punk
 In Opposition
 Techno
 Wave

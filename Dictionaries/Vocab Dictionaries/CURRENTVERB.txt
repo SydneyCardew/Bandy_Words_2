@@ -1,10 +1,11 @@
-###List of CURRENTVERB for Bandy Words. 
+### List of simple present tense verbs for Bandy Words.
 Collapse
 Desist
 Die
 Exist
 Explode
 Fly
+Go
 Live
 Love
 Persist

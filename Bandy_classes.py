@@ -6,8 +6,11 @@ from random import choice
 
 
 class Discography:
-
+    """The Discography class both stores and generates a discography object,
+    and produces the string representation output to the terminal or txt file.
+    """
     def __init__(self, rules_dict, vocab_dict, config):
+        """generates the discography object from basic Bandy Words dictionaries"""
         self.config = config
         self.rules_dict = rules_dict
         self.vocab_dict = vocab_dict
@@ -16,17 +19,29 @@ class Discography:
         self.genre_rules = rules_dict['GENRE']
         self.song_rules = rules_dict['SONG']
         self.discog_size = randint(1, self.config.max_discog_size)
-        self.band_name = bf.make_name(choice(self.band_rules), self.vocab_dict, self.config.bounds)
-        self.band_genre = bf.make_name(choice(self.genre_rules), self.vocab_dict, self.config.bounds)
+        self.band_name = bf.make_name(choice(self.band_rules),
+                                      self.vocab_dict, self.config.bounds, 'band')
+        self.band_genre = bf.make_name(choice(self.genre_rules),
+                                       self.vocab_dict, self.config.bounds, 'genre')
         self.album_list = []
         for x in range(self.discog_size + 1):
-            self.title = bf.make_name(choice(self.album_rules), self.vocab_dict, self.config.bounds)
-            self.album_list.append(Album(self.title, self.song_rules, self.vocab_dict, self.config))
+            self.title = bf.make_name(choice(self.album_rules),
+                                      self.vocab_dict, self.config.bounds, 'album')
+            self.album_list.append(Album(self.title, self.song_rules,
+                                         self.vocab_dict, self.config))
+
+    def csv(self):
+        csv_string = f"{self.band_name},\n{self.band_genre},\n"
+        for album in self.album_list:
+            csv_string += album.csv()
+        return csv_string
 
     def view(self):
+        """passes the output string to __repr__ and __str__"""
         string = f"{self.band_name}\n" \
                  f"Genre: {self.band_genre}\n\n" \
-                 f"{self.discog_size + 1} {'albums' if self.discog_size > 1 else 'album'}\n\n"
+                 f"{self.discog_size + 1} " \
+                 f"{'albums' if self.discog_size > 1 else 'album'}\n\n"
         for album in self.album_list:
             string += str(album)
         return string
@@ -39,7 +54,7 @@ class Discography:
 
 
 class Album:
-
+    """The Album class stores"""
     def __init__(self, title, song_rules, vocab_dict, config):
         self.config = config
         self.vocab_dict = vocab_dict
@@ -48,7 +63,11 @@ class Album:
         self.album_length = randint(1, self.config.max_album_length)
         self.track_list = []
         for x in range(self.album_length + 1):
-            self.track_list.append(bf.make_name(choice(self.song_rules), self.vocab_dict, self.config.bounds))
+            self.track_list.append(bf.make_name(choice(self.song_rules),
+                                                self.vocab_dict, self.config.bounds, 'album'))
+
+    def csv(self):
+        return f"{self.title},{','.join(self.track_list)},\n"
 
     def view(self):
         string = f"{self.title}\n\n"
@@ -65,7 +84,7 @@ class Album:
 
 
 class Configuration:
-
+    """stores the config settings as a convenient object so that reading the config file can be minimised"""
     def __init__(self, config_seg):
         self.config_seg = config_seg
         self.config = conf.ConfigParser()
@@ -82,3 +101,6 @@ class Configuration:
         self.max_discog_size = int(self.config[(config_seg)]['max_discog_size'])
         self.max_album_length = int(self.config[(config_seg)]['max_album_length'])
         self.bounds = [self.lower_bound, self.upper_bound]
+
+    def store_seed(self, seed):
+        self.seed = seed

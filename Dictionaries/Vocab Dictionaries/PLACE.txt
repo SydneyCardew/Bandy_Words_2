@@ -1,38 +1,49 @@
-###List of PLACEs for Bandy Words.
+### List of places for Bandy Words.
+Africa
+America
+Asia
 Bangkok
 Barcelona
-Bay
+the Bay
 Beijing
 Berlin
 Cairo
 Castle
-Cemetery
+the Cemetery
+the Creek
 Earth
-Field
-Forest
+England
+Europe
+the Field
+the Forest
+Germany
 Hamburg
 Helsinki
-Island
+the Island
 L.A.
-Lake
+the Lake
 Liverpool
 London
 Manchester
 Mars
-Meadow
+the Meadow
 Miami
 Moscow
 New York
+the Occident
+the Orient
 Paris
-Pyramids
+the Pyramids
 Reykjavik
-River
+the River
 Rome
 Saigon
+Saturn
 Seattle
 Soho
 Stonehenge
-Swamp
+the Swamp
 Tokyo
 Venus
+the Void
 Warsaw

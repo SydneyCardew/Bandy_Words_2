@@ -1,4 +1,4 @@
-###List of PRONOUNS (PAST) for bandnamer.py
+### List of past pronouns for Bandy Words.
 They Have
 She Has
 He Has

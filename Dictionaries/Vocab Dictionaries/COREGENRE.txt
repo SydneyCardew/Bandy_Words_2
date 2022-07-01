@@ -1,11 +1,10 @@
-###List of CORE GENRES for Bandy Words. 
+### List of core genres for Bandy Words.
 Ambient
 Blues
 Breakbeat
 Calypso
 Country
 Dance
-Danger
 Disco
 Doo-wop
 Downtempo
@@ -17,23 +16,25 @@ Folk
 Funk
 Garage
 Gospel
-Hardcore
+Hard
 Hop
 House
 Industrial
 Jazz
+Mariachi
 Merengue
 Metal
 Noise
-Outsider
 Pop
 Psychedelia
 Punk
+Punta
 Raga
 Rap
 Reggae
 Rock
 Rockabilly
+Sludge
 Soul
 Swing
 Techno

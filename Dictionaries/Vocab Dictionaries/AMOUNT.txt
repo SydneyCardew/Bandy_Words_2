@@ -1,7 +1,18 @@
-### List of AMOUNTS for Bandy Words.
-Half
-Quarter
-One Third
-Two Thirds
-Three Quarters
+### List of amounts, quantities or portions for Bandy Words.
 All
+Broadly
+Completely
+Entirely
+Half
+Largely
+Mainly
+Mostly
+One Half
+One Quarter
+One Third
+Partially
+Quarter
+Semi
+Slightly
+Three Quarters
+Two Thirds

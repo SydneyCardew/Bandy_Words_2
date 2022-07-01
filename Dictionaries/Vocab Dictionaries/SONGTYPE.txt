@@ -1,16 +1,21 @@
 ###List of SONGTYPEs for Bandy Words.
 Anthem
+Arabesque
 Aria
+Ballad
 Blues
 Cantata
 Chanson
 Dirge
 Elegy
+Fugue
 Hymn
 Lament
 Madrigal
+March
 Motif
 Song
+Symphony
 Theme
 Tune
-Fugue
+Waltz

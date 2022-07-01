@@ -1,4 +1,4 @@
-###List of BEINGs for bandnamer.py
+### List of being states for Bandy Words.
 We Are
 She is
 I am

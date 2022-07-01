@@ -1,2 +1,0 @@
-###Handles A at the start
-A

@@ -1,22 +1,31 @@
-###List of GENRE MODIFIERS (1) for Bandy Words. 
+### List of genre modifiers for Bandy Words, designed to appear before the core genres.
+### i.e. 'Heavy Dub', 'Outsider Reggae'.
 Acid
 Afro
+Aggro
 Art
 Bedroom
+Big
 Bubblegum
 Cassette
 Celtic
+Chamber
+Christmas
 Cowboy
+Crossover
+Dance
 Dark
 Death
 Doom
 Drone
 Electro
 Freak
+Free
 Freestyle
 Future
 Ghetto
 Glitch
+Groove
 Heavy
 Internet
 Jangle
@@ -25,7 +34,11 @@ Library
 Machine
 Minimal
 Occult
+Outlaw
+Outsider
 Pagan
+Power
+Psychedelic
 Queer
 Retro
 Space
@@ -36,6 +49,7 @@ Synth
 Techno
 Thrash
 Trip
+Vapor
 Viking
 Witch
 Wizard

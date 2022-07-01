@@ -1,10 +1,27 @@
 ###List of LASTNAMES for Bandy Words.
+Anderson
 Bailey
+Beckett
 Black
+Blake
 Brown
 Davies
+Death
+Devi
+Ford
+Garcia
 Green
+Hansen
+Hendrix
+Ivanov
 Jones
 Lane
+Lovecraft
+Scott
+Singh
 Smith
+Solace
+Sullivan
 White
+Wilson
+Zimmerman

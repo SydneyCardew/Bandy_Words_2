@@ -1,4 +1,4 @@
-###List of COLLECTIVEs for Bandy Words.
+### List of collectives for Bandy Words.
 Aces
 Aliens
 Alliance
@@ -42,11 +42,13 @@ Men
 Ministry
 Mothers
 Orphans
+Outlaws
 Patrol
 Pilots
 Police
 Queens
 Ravens
+Renegades
 Rioters
 Savages
 Set

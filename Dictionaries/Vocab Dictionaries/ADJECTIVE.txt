@@ -1,4 +1,4 @@
-### List of ADJECTIVES for Bandy Words
+### List of adjectives for Bandy Words
 American
 Angelic
 Angry
@@ -6,10 +6,12 @@ Atomic
 Baby
 Beautiful
 Big
+Bird-like
 Black
 Blue
 Bright
 Broken
+Brutal
 Canadian
 Canine
 Christian
@@ -46,11 +48,13 @@ Grateful
 Green
 Grey
 Grotesque
+Happy
 Heathen
 Heavenly
 High
 Holy
 Hot
+Imperial
 Inner
 International
 Japanese
@@ -111,6 +115,7 @@ Unholy
 Vast
 Velvet
 Warm
+Weird
 White
 Wild
 Yellow

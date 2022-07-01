@@ -1,4 +1,4 @@
-###List of BEINGPRESENTs for bandnamer.py
+### List of pronouns for Bandy Words.
 Him
 Her
 Them

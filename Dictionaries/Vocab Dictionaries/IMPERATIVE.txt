@@ -1,7 +1,11 @@
-###List of IMPERATIVEs for Bandy Words.
-Must
-Should
-Shouldn't
-Mustn't
+### List of imperatives for Bandy Words.
 Can
 Can't
+Must
+Mustn't
+Should
+Shouldn't
+Will
+Won't
+Would
+Wouldn't

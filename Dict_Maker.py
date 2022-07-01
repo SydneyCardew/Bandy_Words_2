@@ -1,3 +1,8 @@
+"""Dict_Maker is a module that takes the Rules and Vocab Dictionaries stored as txt files in the \\Rules Dictionaries\\
+and \\Vocab Dictionaries\\ directories and transforms them into less easily human-readable json files that can be
+used by the main Bandy Words program. It can be run independently or called via a command-line argument in Bandy Words
+"""
+
 import os
 
 
@@ -18,7 +23,7 @@ def json_maker(directory, directory_string, target):
         with open(directory_string + file_name, "r+") as open_file:
             json.write(f'"{dict_name}":[')
             for index, line in enumerate(open_file):
-                if "###" in line:
+                if line[:3] == "###":
                     pass
                 else:
                     entry = line.strip('\n')

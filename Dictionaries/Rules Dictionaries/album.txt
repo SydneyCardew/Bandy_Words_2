@@ -1,7 +1,11 @@
-### Album name rules for Bandy Words
+### List of album name rules for Bandy Words. Capitalised words will be replaced.
+### Lines beginning '###' are ignored.
+### To increase weighting, repeat an option
 ADJECTIVE ADJECTIVE NOUN
 ADJECTIVE TIME
+AMOUNT COLLECTIVE
 COLLECTIVE of PLURALS
+FIRSTNAME LASTNAME
 NOUN / NOUN
 NOUN NOUN
 NOUN NUMBER
@@ -10,6 +14,7 @@ NOUN of COLLECTIVE
 NOUN of NOUN
 NOUN of PLURALS
 NOUN of VERB
+NOUNER of PLACE
 NUMBER NOUN
 PASTVERB ADJECTIVE
 PLACE PLURALS
@@ -29,6 +34,7 @@ TIME PLACE
 The ADJECTIVE ADJECTIVE NOUN
 The ADJECTIVE NOUN
 The ADJECTIVE NOUN
+The COLLECTIVE of NOUN
 The FUTURE COLLECTIVE
 The FUTURE NOUN
 The FUTURE PLURALS

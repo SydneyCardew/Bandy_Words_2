@@ -1,4 +1,4 @@
-###List of GENRE MODIFIERS for Bandy Words. 
+### List of genre modifiers for Bandy Words.
 Acoustic
 Ambient
 Baroque
@@ -7,6 +7,7 @@ Constrained
 Electronic
 Esoteric
 Experimental
+First Wave
 Free
 Indie
 Low-Fi
@@ -21,7 +22,9 @@ Primitive
 Progressive
 Retro
 Romantic
+Second Wave
 Sparse
+Third Wave
 Trad
 Unorthodox
 Weird
