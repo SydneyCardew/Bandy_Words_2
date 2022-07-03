@@ -26,6 +26,7 @@ Future
 Ghetto
 Glitch
 Groove
+Hard
 Heavy
 Internet
 Jangle
@@ -41,6 +42,7 @@ Power
 Psychedelic
 Queer
 Retro
+Sincere
 Space
 Speed
 Surf

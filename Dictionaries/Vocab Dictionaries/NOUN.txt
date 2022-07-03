@@ -78,6 +78,7 @@ Glass
 Gold
 Granite
 Grave
+Gristle
 Guitar
 Gun
 Hammer
@@ -176,6 +177,7 @@ Steel
 Stone
 Storm
 Street
+Strawberry
 Sulphur
 Sun
 Sword

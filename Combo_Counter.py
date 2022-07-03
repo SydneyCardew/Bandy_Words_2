@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """Combo_Counter is a module that counts the number of possible combinations the current installation of Bandy Words
 is capable of generating.
 """
@@ -18,10 +20,15 @@ def combination_enumerator(rules_dict, vocab_dict, config):
     total_combinations = 0
     for rule in set(all_rules):
         rule_combinations = []
-        for word in rule.split():
+        raw_list = bf.string_partition(rule)
+        rule_list = [x for y in raw_list for x in y]  # flattens the raw list
+        for word in rule_list:
             if word.isupper():
                 if word == 'NUMBER':
+                    # the * 2 accounts for the conversion of numbers to letters by the number rule
                     rule_combinations.append((config.bounds[1] - config.bounds[0]) * 2)
+                    # this accounts for the insertion of ' by the number rule
+                    rule_combinations.append(config.bounds[1] - 50)
                 else:
                     rule_combinations.append(len(vocab_dict[word]))
         total_combinations += np.prod(rule_combinations)
@@ -32,7 +39,8 @@ def combo_counter(config):
     """main logic, callable from other modules"""
     rules_dict = bf.get_json(os.getcwd() + config.rules_path)
     vocab_dict = bf.get_json(os.getcwd() + config.vocab_path)
-    print(f"This installation of Bandy Words can generate {combination_enumerator(rules_dict, vocab_dict, config)}"
+    display_number = "{:,}".format(combination_enumerator(rules_dict, vocab_dict, config))
+    print(f"This installation of Bandy Words can generate {display_number}"
           f" unique strings.")
 
 

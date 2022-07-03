@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """Dict_Maker is a module that takes the Rules and Vocab Dictionaries stored as txt files in the \\Rules Dictionaries\\
 and \\Vocab Dictionaries\\ directories and transforms them into less easily human-readable json files that can be
 used by the main Bandy Words program. It can be run independently or called via a command-line argument in Bandy Words
