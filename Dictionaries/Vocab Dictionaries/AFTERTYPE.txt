@@ -5,6 +5,8 @@ Beat
 Core
 Core
 Core
+Crossover
+Freestyle
 Fusion
 Gaze
 Hardcore
