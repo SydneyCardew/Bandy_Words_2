@@ -28,7 +28,7 @@ def combination_enumerator(rules_dict, vocab_dict, config):
                     # the * 2 accounts for the conversion of numbers to letters by the number rule
                     rule_combinations.append((config.bounds[1] - config.bounds[0]) * 2)
                     # this accounts for the insertion of ' by the number rule
-                    rule_combinations.append(config.bounds[1] - 50)
+                    rule_combinations.append(config.bounds[1] - config.start_apostrophe_year)
                 else:
                     rule_combinations.append(len(vocab_dict[word]))
         total_combinations += np.prod(rule_combinations)

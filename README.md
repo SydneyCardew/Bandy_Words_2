@@ -179,9 +179,9 @@ name or title, for example:
 
 ```NOUN and the ADJECTIVE COLLECTIVE```
 
-The program will then replace the CAPITALISED words with random selections
-from the appropriate **Vocab Dictionaries** (ie `NOUN`, `ADJECTIVE`, 
-`COLLECTIVE`):
+The program will select rules from the approrpiate dictionary at random and replace the 
+CAPITALISED words with random selections from the appropriate **Vocab Dictionaries** 
+(i.e. `NOUN`, `ADJECTIVE`, `COLLECTIVE`):
 
 ```Heartbreak and the Fabulous Orphans```
 
@@ -277,7 +277,7 @@ capitalised.
 numbers. Operates in the same way as `eleven_rarity`.
 * `start_apostrophe_year` \* - The lowest two digit number which can have an apostrophe
 added to it to give it the appearance of a year.
-* `apostrophe_rarity` \* - Controls the rate at which apostrophes are added to numbers
+* `apostrophe_rarity` \* - Controls the rate at which apostrophes are added to 
 numbers. Operates in the same way as `eleven_rarity`.
 
 **NOTE:** Settings marked with a \* must be integers. Settings marked with \*\* must
