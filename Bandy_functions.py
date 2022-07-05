@@ -19,6 +19,8 @@ def csv_saver(answer_list, config, type, mode='normal'):
     if not os.path.exists(output_path):
         os.mkdir(output_path)
     type_dict = get_type_dict()
+    if type not in type_dict.keys():  # this handles situations in which a user has created a new rules
+        type = 'OTHER'
     # these lines increment the file name
     increment = 1
     while os.path.exists(f"{output_path}{config.output_name} - {str(increment).zfill(3)}.csv"):
@@ -115,6 +117,8 @@ def make_log(log, config, mode='normal'):
         increment = increment + 1
     file_name = f"log - {str(increment).zfill(3)}.txt"
     type_dict = get_type_dict()
+    if type not in type_dict.keys():  # this handles situations in which a user has created a new rules
+        type = 'OTHER'
     with open(log_path + file_name, "w") as log_file:
         log_file.write(f"Log by Bandy Words {config.version} on {date.today()} at {time.strftime('%H:%M:%S')} \n"
                        f"{file_name} containing {len(log)} {type_dict[mode.upper()]}.\n"

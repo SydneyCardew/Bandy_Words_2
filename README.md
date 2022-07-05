@@ -319,6 +319,9 @@ be booleans (`True` or `False`).
 * added a default behaviour if Bandy Words is run without arguments.
 * many minor code improvements and changes.
 
+##### 2.3.1
+* minor bugfix
+
 ---
 
 #### Future development:
